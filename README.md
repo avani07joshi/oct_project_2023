@@ -2,3 +2,4 @@
 new codes will be added 
 3 files added by dhruv16bagora
 changes made by hridaya vashishtha
+hello world in c and c++
