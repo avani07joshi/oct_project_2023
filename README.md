@@ -4,3 +4,4 @@ new codes will be added
 changes made by hridaya vashishtha
 hello world in c and c++
 anjalisoni12- adding html css file for web project
+prime number code in c++ added by anjalisoni12
