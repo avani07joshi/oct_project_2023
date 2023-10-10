@@ -13,6 +13,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    animation: fadeIn 1s ease-in-out;
 }
 
 /* Style the navigation menu */
@@ -21,6 +22,7 @@ nav ul {
     background-color: #333;
     text-align: center;
     padding: 10px;
+    animation: slideIn 1s ease-in-out;
 }
 
 nav li {
@@ -48,4 +50,25 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
