@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+center {
+    text-align: center;
+}
+h2 {
+    margin: 10px 0;
+}
+.container {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+table {
+    width: 100%;
+}
+table td {
+    padding: 10px;
+    vertical-align: top;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

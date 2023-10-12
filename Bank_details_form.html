@@ -2,73 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bank account information</title>
+    <title>Bank Account Information</title>
+    <link rel="stylesheet" href="styles_bankForm.css"/>
 </head>
 <body>
-    <center><h2>Bank Account Information Form</h2></center>
-    <hr width="180px"/>
     <center>
-    <table style="background-color:bisque">
-    <div class="box">
-        <form action>
-            <tr><div class ="form-control">
-                <td>
-                <label for="name">Name </label><br/>
-                <input type="text" placeholder="First">
-                <input type="text" placeholder="Last"><br/><br>
-                </td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for=" given name">Given Name(of applicable)</label><br/>
-                <input type="text" placeholder="First">
-                <input type="text" placeholder="Last"><br/><br></td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for="dob">Date of Birth</label><br/>
-                <input type="date"><br/>
-                <br/></td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for="add">Residental Address</label><br/>
-                <input type="text" placeholder="Street Address"><br/><br>
-                <input type="text" placeholder="Street Address line 2"><br/><br>
-                <input type="text" placeholder="City">
-                <input type="text" placeholder="Region"><br/><br>
-                <input type="tel" placeholder="Postal/Zip Code"></td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for="phone"><pre><h3>Phone                Email</h3></pre></label>
-                <input type="tel" placeholder="##########">
-                <input type="email" placeholder="Email id"><br/></td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for="acc">Account Details</label><br/>
-                <p>Name of Bank,credit union or <br>building society</p>
-                <input type="text"><br/></td>
-            </div></tr>
-            <tr><div class ="form-control">
-                <td>
-                <label for="branch">Branch</label><br/>
-                <input type="text"><br/></td>
-            </div></tr>
-        </div></tr>
-        <tr><div class ="form-control">
-            <td>
-            <label for="address">Address</label><br/>
-            <input type="address"><br/></td>
-        </div></tr>
+        <h2>Bank Account Information Form</h2>
+        <hr width="180px"/>
+    </center>
+    <div class="container">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="First">
+                        <input type="text" placeholder="Last">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="given-name">Given Name (if applicable)</label>
+                        <input type="text" placeholder="First">
+                        <input type="text" placeholder="Last">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="residential-address">Residential Address</label>
+                        <input type="text" placeholder="Street Address">
+                        <input type="text" placeholder="Street Address line 2">
+                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="Region">
+                        <input type="tel" placeholder="Postal/Zip Code">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone-email">Phone / Email</label>
+                        <input type="tel" placeholder="##########">
+                        <input type="email" placeholder="Email id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="account-details">Account Details</label>
+                        <p>Name of Bank, Credit Union or Building Society</p>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="branch">Branch</label>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
         </form>
     </div>
-    
-</table>
-</center>
-<center><button>Submit</button></center>
+    <center>
+        <button>Submit</button>
+    </center>
 </body>
 </html>
