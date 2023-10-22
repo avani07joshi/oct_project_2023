@@ -38,11 +38,11 @@ Hacktoberfest 2023
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/fineanmol/Hacktoberfest2022.git
+git clone https://github.com/avani2002joshi/oct_project_2023.git
 ```
 - Navigate to project directory.
 ```terminal
-cd Hacktoberfest2022
+cd oct_project_2023
 ```
 
 - Create a new Branch
@@ -76,7 +76,7 @@ git push origin my-new-branch
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
 ```terminal
-git remote add upstream https://github.com/fineanmol/Hacktoberfest2022
+git remote add upstream https://github.com/avani2002joshi/oct_project_2023
 ```
 
 You can verify that the new remote has been added by typing
@@ -93,8 +93,7 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 
 For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
 
-## Swags of Hacktoberfest:
-- Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2021 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
+
  
      <li><B><p><img src="https://miro.medium.com/max/1050/1*4JctIO7irt8hFxBmTvUpiQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
 </b></li>
