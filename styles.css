@@ -1,22 +1,40 @@
-
 nav ul {
-    list-style: none; 
-    padding: 0; 
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px; 
+  display: inline;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none; 
-    color: #333;
-    font-weight: bold; 
-    font-size: 16px; 
-    transition: color 0.3s; 
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #007BFF; 
+  color: #007bff;
+}
+
+/* Basic Button Styling */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Button color */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline for anchor tags */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover Effect */
+button:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
 }
